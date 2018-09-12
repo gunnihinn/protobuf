@@ -36,7 +36,7 @@ func (m *SizeMessage) Reset()         { *m = SizeMessage{} }
 func (m *SizeMessage) String() string { return proto.CompactTextString(m) }
 func (*SizeMessage) ProtoMessage()    {}
 func (*SizeMessage) Descriptor() ([]byte, []int) {
-	return fileDescriptor_sizeunderscore_8bd49b07450c24e4, []int{0}
+	return fileDescriptor_sizeunderscore_50ebf86ef0019e26, []int{0}
 }
 func (m *SizeMessage) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -549,10 +549,10 @@ var (
 )
 
 func init() {
-	proto.RegisterFile("sizeunderscore.proto", fileDescriptor_sizeunderscore_8bd49b07450c24e4)
+	proto.RegisterFile("sizeunderscore.proto", fileDescriptor_sizeunderscore_50ebf86ef0019e26)
 }
 
-var fileDescriptor_sizeunderscore_8bd49b07450c24e4 = []byte{
+var fileDescriptor_sizeunderscore_50ebf86ef0019e26 = []byte{
 	// 174 bytes of a gzipped FileDescriptorProto
 	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xff, 0xe2, 0x12, 0x29, 0xce, 0xac, 0x4a,
 	0x2d, 0xcd, 0x4b, 0x49, 0x2d, 0x2a, 0x4e, 0xce, 0x2f, 0x4a, 0xd5, 0x2b, 0x28, 0xca, 0x2f, 0xc9,
