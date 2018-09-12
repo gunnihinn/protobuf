@@ -76,7 +76,7 @@ func (x *TheTestEnum) UnmarshalJSON(data []byte) error {
 	return nil
 }
 func (TheTestEnum) EnumDescriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{0}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{0}
 }
 
 type AnotherTestEnum int32
@@ -112,7 +112,7 @@ func (x *AnotherTestEnum) UnmarshalJSON(data []byte) error {
 	return nil
 }
 func (AnotherTestEnum) EnumDescriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{1}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{1}
 }
 
 // YetAnotherTestEnum is used to test cross-package import of custom name
@@ -150,7 +150,7 @@ func (x *YetAnotherTestEnum) UnmarshalJSON(data []byte) error {
 	return nil
 }
 func (YetAnotherTestEnum) EnumDescriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{2}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{2}
 }
 
 // YetAnotherTestEnum is used to test cross-package import of custom name
@@ -188,7 +188,7 @@ func (x *YetYetAnotherTestEnum) UnmarshalJSON(data []byte) error {
 	return nil
 }
 func (YetYetAnotherTestEnum) EnumDescriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{3}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{3}
 }
 
 type NestedDefinition_NestedEnum int32
@@ -221,7 +221,7 @@ func (x *NestedDefinition_NestedEnum) UnmarshalJSON(data []byte) error {
 	return nil
 }
 func (NestedDefinition_NestedEnum) EnumDescriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{42, 0}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{42, 0}
 }
 
 type NidOptNative struct {
@@ -248,7 +248,7 @@ type NidOptNative struct {
 func (m *NidOptNative) Reset()      { *m = NidOptNative{} }
 func (*NidOptNative) ProtoMessage() {}
 func (*NidOptNative) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{0}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{0}
 }
 func (m *NidOptNative) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -301,7 +301,7 @@ type NinOptNative struct {
 func (m *NinOptNative) Reset()      { *m = NinOptNative{} }
 func (*NinOptNative) ProtoMessage() {}
 func (*NinOptNative) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{1}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{1}
 }
 func (m *NinOptNative) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -354,7 +354,7 @@ type NidRepNative struct {
 func (m *NidRepNative) Reset()      { *m = NidRepNative{} }
 func (*NidRepNative) ProtoMessage() {}
 func (*NidRepNative) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{2}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{2}
 }
 func (m *NidRepNative) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -407,7 +407,7 @@ type NinRepNative struct {
 func (m *NinRepNative) Reset()      { *m = NinRepNative{} }
 func (*NinRepNative) ProtoMessage() {}
 func (*NinRepNative) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{3}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{3}
 }
 func (m *NinRepNative) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -458,7 +458,7 @@ type NidRepPackedNative struct {
 func (m *NidRepPackedNative) Reset()      { *m = NidRepPackedNative{} }
 func (*NidRepPackedNative) ProtoMessage() {}
 func (*NidRepPackedNative) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{4}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{4}
 }
 func (m *NidRepPackedNative) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -509,7 +509,7 @@ type NinRepPackedNative struct {
 func (m *NinRepPackedNative) Reset()      { *m = NinRepPackedNative{} }
 func (*NinRepPackedNative) ProtoMessage() {}
 func (*NinRepPackedNative) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{5}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{5}
 }
 func (m *NinRepPackedNative) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -557,7 +557,7 @@ type NidOptStruct struct {
 func (m *NidOptStruct) Reset()      { *m = NidOptStruct{} }
 func (*NidOptStruct) ProtoMessage() {}
 func (*NidOptStruct) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{6}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{6}
 }
 func (m *NidOptStruct) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -605,7 +605,7 @@ type NinOptStruct struct {
 func (m *NinOptStruct) Reset()      { *m = NinOptStruct{} }
 func (*NinOptStruct) ProtoMessage() {}
 func (*NinOptStruct) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{7}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{7}
 }
 func (m *NinOptStruct) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -653,7 +653,7 @@ type NidRepStruct struct {
 func (m *NidRepStruct) Reset()      { *m = NidRepStruct{} }
 func (*NidRepStruct) ProtoMessage() {}
 func (*NidRepStruct) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{8}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{8}
 }
 func (m *NidRepStruct) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -701,7 +701,7 @@ type NinRepStruct struct {
 func (m *NinRepStruct) Reset()      { *m = NinRepStruct{} }
 func (*NinRepStruct) ProtoMessage() {}
 func (*NinRepStruct) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{9}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{9}
 }
 func (m *NinRepStruct) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -742,7 +742,7 @@ type NidEmbeddedStruct struct {
 func (m *NidEmbeddedStruct) Reset()      { *m = NidEmbeddedStruct{} }
 func (*NidEmbeddedStruct) ProtoMessage() {}
 func (*NidEmbeddedStruct) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{10}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{10}
 }
 func (m *NidEmbeddedStruct) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -783,7 +783,7 @@ type NinEmbeddedStruct struct {
 func (m *NinEmbeddedStruct) Reset()      { *m = NinEmbeddedStruct{} }
 func (*NinEmbeddedStruct) ProtoMessage() {}
 func (*NinEmbeddedStruct) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{11}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{11}
 }
 func (m *NinEmbeddedStruct) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -823,7 +823,7 @@ type NidNestedStruct struct {
 func (m *NidNestedStruct) Reset()      { *m = NidNestedStruct{} }
 func (*NidNestedStruct) ProtoMessage() {}
 func (*NidNestedStruct) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{12}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{12}
 }
 func (m *NidNestedStruct) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -863,7 +863,7 @@ type NinNestedStruct struct {
 func (m *NinNestedStruct) Reset()      { *m = NinNestedStruct{} }
 func (*NinNestedStruct) ProtoMessage() {}
 func (*NinNestedStruct) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{13}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{13}
 }
 func (m *NinNestedStruct) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -903,7 +903,7 @@ type NidOptCustom struct {
 func (m *NidOptCustom) Reset()      { *m = NidOptCustom{} }
 func (*NidOptCustom) ProtoMessage() {}
 func (*NidOptCustom) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{14}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{14}
 }
 func (m *NidOptCustom) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -942,7 +942,7 @@ type CustomDash struct {
 func (m *CustomDash) Reset()      { *m = CustomDash{} }
 func (*CustomDash) ProtoMessage() {}
 func (*CustomDash) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{15}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{15}
 }
 func (m *CustomDash) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -982,7 +982,7 @@ type NinOptCustom struct {
 func (m *NinOptCustom) Reset()      { *m = NinOptCustom{} }
 func (*NinOptCustom) ProtoMessage() {}
 func (*NinOptCustom) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{16}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{16}
 }
 func (m *NinOptCustom) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -1022,7 +1022,7 @@ type NidRepCustom struct {
 func (m *NidRepCustom) Reset()      { *m = NidRepCustom{} }
 func (*NidRepCustom) ProtoMessage() {}
 func (*NidRepCustom) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{17}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{17}
 }
 func (m *NidRepCustom) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -1062,7 +1062,7 @@ type NinRepCustom struct {
 func (m *NinRepCustom) Reset()      { *m = NinRepCustom{} }
 func (*NinRepCustom) ProtoMessage() {}
 func (*NinRepCustom) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{18}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{18}
 }
 func (m *NinRepCustom) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -1109,7 +1109,7 @@ type NinOptNativeUnion struct {
 func (m *NinOptNativeUnion) Reset()      { *m = NinOptNativeUnion{} }
 func (*NinOptNativeUnion) ProtoMessage() {}
 func (*NinOptNativeUnion) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{19}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{19}
 }
 func (m *NinOptNativeUnion) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -1156,7 +1156,7 @@ type NinOptStructUnion struct {
 func (m *NinOptStructUnion) Reset()      { *m = NinOptStructUnion{} }
 func (*NinOptStructUnion) ProtoMessage() {}
 func (*NinOptStructUnion) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{20}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{20}
 }
 func (m *NinOptStructUnion) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -1197,7 +1197,7 @@ type NinEmbeddedStructUnion struct {
 func (m *NinEmbeddedStructUnion) Reset()      { *m = NinEmbeddedStructUnion{} }
 func (*NinEmbeddedStructUnion) ProtoMessage() {}
 func (*NinEmbeddedStructUnion) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{21}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{21}
 }
 func (m *NinEmbeddedStructUnion) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -1238,7 +1238,7 @@ type NinNestedStructUnion struct {
 func (m *NinNestedStructUnion) Reset()      { *m = NinNestedStructUnion{} }
 func (*NinNestedStructUnion) ProtoMessage() {}
 func (*NinNestedStructUnion) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{22}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{22}
 }
 func (m *NinNestedStructUnion) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -1279,7 +1279,7 @@ type Tree struct {
 func (m *Tree) Reset()      { *m = Tree{} }
 func (*Tree) ProtoMessage() {}
 func (*Tree) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{23}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{23}
 }
 func (m *Tree) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -1319,7 +1319,7 @@ type OrBranch struct {
 func (m *OrBranch) Reset()      { *m = OrBranch{} }
 func (*OrBranch) ProtoMessage() {}
 func (*OrBranch) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{24}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{24}
 }
 func (m *OrBranch) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -1359,7 +1359,7 @@ type AndBranch struct {
 func (m *AndBranch) Reset()      { *m = AndBranch{} }
 func (*AndBranch) ProtoMessage() {}
 func (*AndBranch) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{25}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{25}
 }
 func (m *AndBranch) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -1399,7 +1399,7 @@ type Leaf struct {
 func (m *Leaf) Reset()      { *m = Leaf{} }
 func (*Leaf) ProtoMessage() {}
 func (*Leaf) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{26}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{26}
 }
 func (m *Leaf) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -1440,7 +1440,7 @@ type DeepTree struct {
 func (m *DeepTree) Reset()      { *m = DeepTree{} }
 func (*DeepTree) ProtoMessage() {}
 func (*DeepTree) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{27}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{27}
 }
 func (m *DeepTree) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -1479,7 +1479,7 @@ type ADeepBranch struct {
 func (m *ADeepBranch) Reset()      { *m = ADeepBranch{} }
 func (*ADeepBranch) ProtoMessage() {}
 func (*ADeepBranch) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{28}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{28}
 }
 func (m *ADeepBranch) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -1519,7 +1519,7 @@ type AndDeepBranch struct {
 func (m *AndDeepBranch) Reset()      { *m = AndDeepBranch{} }
 func (*AndDeepBranch) ProtoMessage() {}
 func (*AndDeepBranch) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{29}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{29}
 }
 func (m *AndDeepBranch) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -1558,7 +1558,7 @@ type DeepLeaf struct {
 func (m *DeepLeaf) Reset()      { *m = DeepLeaf{} }
 func (*DeepLeaf) ProtoMessage() {}
 func (*DeepLeaf) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{30}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{30}
 }
 func (m *DeepLeaf) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -1596,7 +1596,7 @@ type Nil struct {
 func (m *Nil) Reset()      { *m = Nil{} }
 func (*Nil) ProtoMessage() {}
 func (*Nil) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{31}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{31}
 }
 func (m *Nil) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -1635,7 +1635,7 @@ type NidOptEnum struct {
 func (m *NidOptEnum) Reset()      { *m = NidOptEnum{} }
 func (*NidOptEnum) ProtoMessage() {}
 func (*NidOptEnum) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{32}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{32}
 }
 func (m *NidOptEnum) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -1676,7 +1676,7 @@ type NinOptEnum struct {
 func (m *NinOptEnum) Reset()      { *m = NinOptEnum{} }
 func (*NinOptEnum) ProtoMessage() {}
 func (*NinOptEnum) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{33}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{33}
 }
 func (m *NinOptEnum) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -1717,7 +1717,7 @@ type NidRepEnum struct {
 func (m *NidRepEnum) Reset()      { *m = NidRepEnum{} }
 func (*NidRepEnum) ProtoMessage() {}
 func (*NidRepEnum) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{34}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{34}
 }
 func (m *NidRepEnum) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -1758,7 +1758,7 @@ type NinRepEnum struct {
 func (m *NinRepEnum) Reset()      { *m = NinRepEnum{} }
 func (*NinRepEnum) ProtoMessage() {}
 func (*NinRepEnum) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{35}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{35}
 }
 func (m *NinRepEnum) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -1799,7 +1799,7 @@ type NinOptEnumDefault struct {
 func (m *NinOptEnumDefault) Reset()      { *m = NinOptEnumDefault{} }
 func (*NinOptEnumDefault) ProtoMessage() {}
 func (*NinOptEnumDefault) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{36}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{36}
 }
 func (m *NinOptEnumDefault) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -1865,7 +1865,7 @@ type AnotherNinOptEnum struct {
 func (m *AnotherNinOptEnum) Reset()      { *m = AnotherNinOptEnum{} }
 func (*AnotherNinOptEnum) ProtoMessage() {}
 func (*AnotherNinOptEnum) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{37}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{37}
 }
 func (m *AnotherNinOptEnum) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -1906,7 +1906,7 @@ type AnotherNinOptEnumDefault struct {
 func (m *AnotherNinOptEnumDefault) Reset()      { *m = AnotherNinOptEnumDefault{} }
 func (*AnotherNinOptEnumDefault) ProtoMessage() {}
 func (*AnotherNinOptEnumDefault) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{38}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{38}
 }
 func (m *AnotherNinOptEnumDefault) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -1972,7 +1972,7 @@ type Timer struct {
 func (m *Timer) Reset()      { *m = Timer{} }
 func (*Timer) ProtoMessage() {}
 func (*Timer) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{39}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{39}
 }
 func (m *Timer) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -2012,7 +2012,7 @@ type MyExtendable struct {
 func (m *MyExtendable) Reset()      { *m = MyExtendable{} }
 func (*MyExtendable) ProtoMessage() {}
 func (*MyExtendable) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{40}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{40}
 }
 
 var extRange_MyExtendable = []proto.ExtensionRange{
@@ -2062,7 +2062,7 @@ type OtherExtenable struct {
 func (m *OtherExtenable) Reset()      { *m = OtherExtenable{} }
 func (*OtherExtenable) ProtoMessage() {}
 func (*OtherExtenable) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{41}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{41}
 }
 
 var extRange_OtherExtenable = []proto.ExtensionRange{
@@ -2113,7 +2113,7 @@ type NestedDefinition struct {
 func (m *NestedDefinition) Reset()      { *m = NestedDefinition{} }
 func (*NestedDefinition) ProtoMessage() {}
 func (*NestedDefinition) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{42}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{42}
 }
 func (m *NestedDefinition) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -2153,7 +2153,7 @@ type NestedDefinition_NestedMessage struct {
 func (m *NestedDefinition_NestedMessage) Reset()      { *m = NestedDefinition_NestedMessage{} }
 func (*NestedDefinition_NestedMessage) ProtoMessage() {}
 func (*NestedDefinition_NestedMessage) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{42, 0}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{42, 0}
 }
 func (m *NestedDefinition_NestedMessage) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -2194,7 +2194,7 @@ func (m *NestedDefinition_NestedMessage_NestedNestedMsg) Reset() {
 }
 func (*NestedDefinition_NestedMessage_NestedNestedMsg) ProtoMessage() {}
 func (*NestedDefinition_NestedMessage_NestedNestedMsg) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{42, 0, 0}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{42, 0, 0}
 }
 func (m *NestedDefinition_NestedMessage_NestedNestedMsg) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -2235,7 +2235,7 @@ type NestedScope struct {
 func (m *NestedScope) Reset()      { *m = NestedScope{} }
 func (*NestedScope) ProtoMessage() {}
 func (*NestedScope) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{43}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{43}
 }
 func (m *NestedScope) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -2288,7 +2288,7 @@ type NinOptNativeDefault struct {
 func (m *NinOptNativeDefault) Reset()      { *m = NinOptNativeDefault{} }
 func (*NinOptNativeDefault) ProtoMessage() {}
 func (*NinOptNativeDefault) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{44}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{44}
 }
 func (m *NinOptNativeDefault) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -2447,7 +2447,7 @@ type CustomContainer struct {
 func (m *CustomContainer) Reset()      { *m = CustomContainer{} }
 func (*CustomContainer) ProtoMessage() {}
 func (*CustomContainer) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{45}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{45}
 }
 func (m *CustomContainer) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -2500,7 +2500,7 @@ type CustomNameNidOptNative struct {
 func (m *CustomNameNidOptNative) Reset()      { *m = CustomNameNidOptNative{} }
 func (*CustomNameNidOptNative) ProtoMessage() {}
 func (*CustomNameNidOptNative) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{46}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{46}
 }
 func (m *CustomNameNidOptNative) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -2553,7 +2553,7 @@ type CustomNameNinOptNative struct {
 func (m *CustomNameNinOptNative) Reset()      { *m = CustomNameNinOptNative{} }
 func (*CustomNameNinOptNative) ProtoMessage() {}
 func (*CustomNameNinOptNative) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{47}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{47}
 }
 func (m *CustomNameNinOptNative) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -2606,7 +2606,7 @@ type CustomNameNinRepNative struct {
 func (m *CustomNameNinRepNative) Reset()      { *m = CustomNameNinRepNative{} }
 func (*CustomNameNinRepNative) ProtoMessage() {}
 func (*CustomNameNinRepNative) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{48}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{48}
 }
 func (m *CustomNameNinRepNative) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -2654,7 +2654,7 @@ type CustomNameNinStruct struct {
 func (m *CustomNameNinStruct) Reset()      { *m = CustomNameNinStruct{} }
 func (*CustomNameNinStruct) ProtoMessage() {}
 func (*CustomNameNinStruct) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{49}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{49}
 }
 func (m *CustomNameNinStruct) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -2696,7 +2696,7 @@ type CustomNameCustomType struct {
 func (m *CustomNameCustomType) Reset()      { *m = CustomNameCustomType{} }
 func (*CustomNameCustomType) ProtoMessage() {}
 func (*CustomNameCustomType) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{50}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{50}
 }
 func (m *CustomNameCustomType) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -2737,7 +2737,7 @@ type CustomNameNinEmbeddedStructUnion struct {
 func (m *CustomNameNinEmbeddedStructUnion) Reset()      { *m = CustomNameNinEmbeddedStructUnion{} }
 func (*CustomNameNinEmbeddedStructUnion) ProtoMessage() {}
 func (*CustomNameNinEmbeddedStructUnion) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{51}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{51}
 }
 func (m *CustomNameNinEmbeddedStructUnion) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -2777,7 +2777,7 @@ type CustomNameEnum struct {
 func (m *CustomNameEnum) Reset()      { *m = CustomNameEnum{} }
 func (*CustomNameEnum) ProtoMessage() {}
 func (*CustomNameEnum) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{52}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{52}
 }
 func (m *CustomNameEnum) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -2817,7 +2817,7 @@ type NoExtensionsMap struct {
 func (m *NoExtensionsMap) Reset()      { *m = NoExtensionsMap{} }
 func (*NoExtensionsMap) ProtoMessage() {}
 func (*NoExtensionsMap) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{53}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{53}
 }
 
 var extRange_NoExtensionsMap = []proto.ExtensionRange{
@@ -2869,7 +2869,7 @@ type Unrecognized struct {
 func (m *Unrecognized) Reset()      { *m = Unrecognized{} }
 func (*Unrecognized) ProtoMessage() {}
 func (*Unrecognized) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{54}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{54}
 }
 func (m *Unrecognized) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -2909,7 +2909,7 @@ type UnrecognizedWithInner struct {
 func (m *UnrecognizedWithInner) Reset()      { *m = UnrecognizedWithInner{} }
 func (*UnrecognizedWithInner) ProtoMessage() {}
 func (*UnrecognizedWithInner) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{55}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{55}
 }
 func (m *UnrecognizedWithInner) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -2947,7 +2947,7 @@ type UnrecognizedWithInner_Inner struct {
 func (m *UnrecognizedWithInner_Inner) Reset()      { *m = UnrecognizedWithInner_Inner{} }
 func (*UnrecognizedWithInner_Inner) ProtoMessage() {}
 func (*UnrecognizedWithInner_Inner) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{55, 0}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{55, 0}
 }
 func (m *UnrecognizedWithInner_Inner) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -2987,7 +2987,7 @@ type UnrecognizedWithEmbed struct {
 func (m *UnrecognizedWithEmbed) Reset()      { *m = UnrecognizedWithEmbed{} }
 func (*UnrecognizedWithEmbed) ProtoMessage() {}
 func (*UnrecognizedWithEmbed) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{56}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{56}
 }
 func (m *UnrecognizedWithEmbed) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -3025,7 +3025,7 @@ type UnrecognizedWithEmbed_Embedded struct {
 func (m *UnrecognizedWithEmbed_Embedded) Reset()      { *m = UnrecognizedWithEmbed_Embedded{} }
 func (*UnrecognizedWithEmbed_Embedded) ProtoMessage() {}
 func (*UnrecognizedWithEmbed_Embedded) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{56, 0}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{56, 0}
 }
 func (m *UnrecognizedWithEmbed_Embedded) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -3065,7 +3065,7 @@ type Node struct {
 func (m *Node) Reset()      { *m = Node{} }
 func (*Node) ProtoMessage() {}
 func (*Node) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{57}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{57}
 }
 func (m *Node) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -3104,7 +3104,7 @@ type NonByteCustomType struct {
 func (m *NonByteCustomType) Reset()      { *m = NonByteCustomType{} }
 func (*NonByteCustomType) ProtoMessage() {}
 func (*NonByteCustomType) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{58}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{58}
 }
 func (m *NonByteCustomType) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -3143,7 +3143,7 @@ type NidOptNonByteCustomType struct {
 func (m *NidOptNonByteCustomType) Reset()      { *m = NidOptNonByteCustomType{} }
 func (*NidOptNonByteCustomType) ProtoMessage() {}
 func (*NidOptNonByteCustomType) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{59}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{59}
 }
 func (m *NidOptNonByteCustomType) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -3182,7 +3182,7 @@ type NinOptNonByteCustomType struct {
 func (m *NinOptNonByteCustomType) Reset()      { *m = NinOptNonByteCustomType{} }
 func (*NinOptNonByteCustomType) ProtoMessage() {}
 func (*NinOptNonByteCustomType) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{60}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{60}
 }
 func (m *NinOptNonByteCustomType) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -3221,7 +3221,7 @@ type NidRepNonByteCustomType struct {
 func (m *NidRepNonByteCustomType) Reset()      { *m = NidRepNonByteCustomType{} }
 func (*NidRepNonByteCustomType) ProtoMessage() {}
 func (*NidRepNonByteCustomType) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{61}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{61}
 }
 func (m *NidRepNonByteCustomType) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -3260,7 +3260,7 @@ type NinRepNonByteCustomType struct {
 func (m *NinRepNonByteCustomType) Reset()      { *m = NinRepNonByteCustomType{} }
 func (*NinRepNonByteCustomType) ProtoMessage() {}
 func (*NinRepNonByteCustomType) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{62}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{62}
 }
 func (m *NinRepNonByteCustomType) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -3299,7 +3299,7 @@ type ProtoType struct {
 func (m *ProtoType) Reset()      { *m = ProtoType{} }
 func (*ProtoType) ProtoMessage() {}
 func (*ProtoType) Descriptor() ([]byte, []int) {
-	return fileDescriptor_thetest_3e4f682cb8349b83, []int{63}
+	return fileDescriptor_thetest_278454dc662c3d3e, []int{63}
 }
 func (m *ProtoType) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -32179,8 +32179,10 @@ func (m *NidRepNative) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
-				if len(m.Field1) == 0 {
-					m.Field1 = make([]float64, 0, packedLen/8)
+				var elementCount int
+				elementCount = packedLen / 8
+				if elementCount != 0 && len(m.Field1) == 0 {
+					m.Field1 = make([]float64, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v uint64
@@ -32228,8 +32230,10 @@ func (m *NidRepNative) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
-				if len(m.Field2) == 0 {
-					m.Field2 = make([]float32, 0, packedLen/4)
+				var elementCount int
+				elementCount = packedLen / 4
+				if elementCount != 0 && len(m.Field2) == 0 {
+					m.Field2 = make([]float32, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v uint32
@@ -32284,6 +32288,17 @@ func (m *NidRepNative) Unmarshal(dAtA []byte) error {
 				postIndex := iNdEx + packedLen
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
+				}
+				var elementCount int
+				var count int
+				for _, integer := range dAtA {
+					if integer < 128 {
+						count++
+					}
+				}
+				elementCount = count
+				if elementCount != 0 && len(m.Field3) == 0 {
+					m.Field3 = make([]int32, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v int32
@@ -32347,6 +32362,17 @@ func (m *NidRepNative) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
+				var elementCount int
+				var count int
+				for _, integer := range dAtA {
+					if integer < 128 {
+						count++
+					}
+				}
+				elementCount = count
+				if elementCount != 0 && len(m.Field4) == 0 {
+					m.Field4 = make([]int64, 0, elementCount)
+				}
 				for iNdEx < postIndex {
 					var v int64
 					for shift := uint(0); ; shift += 7 {
@@ -32408,6 +32434,17 @@ func (m *NidRepNative) Unmarshal(dAtA []byte) error {
 				postIndex := iNdEx + packedLen
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
+				}
+				var elementCount int
+				var count int
+				for _, integer := range dAtA {
+					if integer < 128 {
+						count++
+					}
+				}
+				elementCount = count
+				if elementCount != 0 && len(m.Field5) == 0 {
+					m.Field5 = make([]uint32, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v uint32
@@ -32471,6 +32508,17 @@ func (m *NidRepNative) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
+				var elementCount int
+				var count int
+				for _, integer := range dAtA {
+					if integer < 128 {
+						count++
+					}
+				}
+				elementCount = count
+				if elementCount != 0 && len(m.Field6) == 0 {
+					m.Field6 = make([]uint64, 0, elementCount)
+				}
 				for iNdEx < postIndex {
 					var v uint64
 					for shift := uint(0); ; shift += 7 {
@@ -32533,6 +32581,17 @@ func (m *NidRepNative) Unmarshal(dAtA []byte) error {
 				postIndex := iNdEx + packedLen
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
+				}
+				var elementCount int
+				var count int
+				for _, integer := range dAtA {
+					if integer < 128 {
+						count++
+					}
+				}
+				elementCount = count
+				if elementCount != 0 && len(m.Field7) == 0 {
+					m.Field7 = make([]int32, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v int32
@@ -32598,6 +32657,17 @@ func (m *NidRepNative) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
+				var elementCount int
+				var count int
+				for _, integer := range dAtA {
+					if integer < 128 {
+						count++
+					}
+				}
+				elementCount = count
+				if elementCount != 0 && len(m.Field8) == 0 {
+					m.Field8 = make([]int64, 0, elementCount)
+				}
 				for iNdEx < postIndex {
 					var v uint64
 					for shift := uint(0); ; shift += 7 {
@@ -32652,8 +32722,10 @@ func (m *NidRepNative) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
-				if len(m.Field9) == 0 {
-					m.Field9 = make([]uint32, 0, packedLen/4)
+				var elementCount int
+				elementCount = packedLen / 4
+				if elementCount != 0 && len(m.Field9) == 0 {
+					m.Field9 = make([]uint32, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v uint32
@@ -32699,8 +32771,10 @@ func (m *NidRepNative) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
-				if len(m.Field10) == 0 {
-					m.Field10 = make([]int32, 0, packedLen/4)
+				var elementCount int
+				elementCount = packedLen / 4
+				if elementCount != 0 && len(m.Field10) == 0 {
+					m.Field10 = make([]int32, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v int32
@@ -32746,8 +32820,10 @@ func (m *NidRepNative) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
-				if len(m.Field11) == 0 {
-					m.Field11 = make([]uint64, 0, packedLen/8)
+				var elementCount int
+				elementCount = packedLen / 8
+				if elementCount != 0 && len(m.Field11) == 0 {
+					m.Field11 = make([]uint64, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v uint64
@@ -32793,8 +32869,10 @@ func (m *NidRepNative) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
-				if len(m.Field12) == 0 {
-					m.Field12 = make([]int64, 0, packedLen/8)
+				var elementCount int
+				elementCount = packedLen / 8
+				if elementCount != 0 && len(m.Field12) == 0 {
+					m.Field12 = make([]int64, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v int64
@@ -32848,6 +32926,11 @@ func (m *NidRepNative) Unmarshal(dAtA []byte) error {
 				postIndex := iNdEx + packedLen
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
+				}
+				var elementCount int
+				elementCount = packedLen
+				if elementCount != 0 && len(m.Field13) == 0 {
+					m.Field13 = make([]bool, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v int
@@ -33012,8 +33095,10 @@ func (m *NinRepNative) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
-				if len(m.Field1) == 0 {
-					m.Field1 = make([]float64, 0, packedLen/8)
+				var elementCount int
+				elementCount = packedLen / 8
+				if elementCount != 0 && len(m.Field1) == 0 {
+					m.Field1 = make([]float64, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v uint64
@@ -33061,8 +33146,10 @@ func (m *NinRepNative) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
-				if len(m.Field2) == 0 {
-					m.Field2 = make([]float32, 0, packedLen/4)
+				var elementCount int
+				elementCount = packedLen / 4
+				if elementCount != 0 && len(m.Field2) == 0 {
+					m.Field2 = make([]float32, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v uint32
@@ -33117,6 +33204,17 @@ func (m *NinRepNative) Unmarshal(dAtA []byte) error {
 				postIndex := iNdEx + packedLen
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
+				}
+				var elementCount int
+				var count int
+				for _, integer := range dAtA {
+					if integer < 128 {
+						count++
+					}
+				}
+				elementCount = count
+				if elementCount != 0 && len(m.Field3) == 0 {
+					m.Field3 = make([]int32, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v int32
@@ -33180,6 +33278,17 @@ func (m *NinRepNative) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
+				var elementCount int
+				var count int
+				for _, integer := range dAtA {
+					if integer < 128 {
+						count++
+					}
+				}
+				elementCount = count
+				if elementCount != 0 && len(m.Field4) == 0 {
+					m.Field4 = make([]int64, 0, elementCount)
+				}
 				for iNdEx < postIndex {
 					var v int64
 					for shift := uint(0); ; shift += 7 {
@@ -33241,6 +33350,17 @@ func (m *NinRepNative) Unmarshal(dAtA []byte) error {
 				postIndex := iNdEx + packedLen
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
+				}
+				var elementCount int
+				var count int
+				for _, integer := range dAtA {
+					if integer < 128 {
+						count++
+					}
+				}
+				elementCount = count
+				if elementCount != 0 && len(m.Field5) == 0 {
+					m.Field5 = make([]uint32, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v uint32
@@ -33304,6 +33424,17 @@ func (m *NinRepNative) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
+				var elementCount int
+				var count int
+				for _, integer := range dAtA {
+					if integer < 128 {
+						count++
+					}
+				}
+				elementCount = count
+				if elementCount != 0 && len(m.Field6) == 0 {
+					m.Field6 = make([]uint64, 0, elementCount)
+				}
 				for iNdEx < postIndex {
 					var v uint64
 					for shift := uint(0); ; shift += 7 {
@@ -33366,6 +33497,17 @@ func (m *NinRepNative) Unmarshal(dAtA []byte) error {
 				postIndex := iNdEx + packedLen
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
+				}
+				var elementCount int
+				var count int
+				for _, integer := range dAtA {
+					if integer < 128 {
+						count++
+					}
+				}
+				elementCount = count
+				if elementCount != 0 && len(m.Field7) == 0 {
+					m.Field7 = make([]int32, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v int32
@@ -33431,6 +33573,17 @@ func (m *NinRepNative) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
+				var elementCount int
+				var count int
+				for _, integer := range dAtA {
+					if integer < 128 {
+						count++
+					}
+				}
+				elementCount = count
+				if elementCount != 0 && len(m.Field8) == 0 {
+					m.Field8 = make([]int64, 0, elementCount)
+				}
 				for iNdEx < postIndex {
 					var v uint64
 					for shift := uint(0); ; shift += 7 {
@@ -33485,8 +33638,10 @@ func (m *NinRepNative) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
-				if len(m.Field9) == 0 {
-					m.Field9 = make([]uint32, 0, packedLen/4)
+				var elementCount int
+				elementCount = packedLen / 4
+				if elementCount != 0 && len(m.Field9) == 0 {
+					m.Field9 = make([]uint32, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v uint32
@@ -33532,8 +33687,10 @@ func (m *NinRepNative) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
-				if len(m.Field10) == 0 {
-					m.Field10 = make([]int32, 0, packedLen/4)
+				var elementCount int
+				elementCount = packedLen / 4
+				if elementCount != 0 && len(m.Field10) == 0 {
+					m.Field10 = make([]int32, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v int32
@@ -33579,8 +33736,10 @@ func (m *NinRepNative) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
-				if len(m.Field11) == 0 {
-					m.Field11 = make([]uint64, 0, packedLen/8)
+				var elementCount int
+				elementCount = packedLen / 8
+				if elementCount != 0 && len(m.Field11) == 0 {
+					m.Field11 = make([]uint64, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v uint64
@@ -33626,8 +33785,10 @@ func (m *NinRepNative) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
-				if len(m.Field12) == 0 {
-					m.Field12 = make([]int64, 0, packedLen/8)
+				var elementCount int
+				elementCount = packedLen / 8
+				if elementCount != 0 && len(m.Field12) == 0 {
+					m.Field12 = make([]int64, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v int64
@@ -33681,6 +33842,11 @@ func (m *NinRepNative) Unmarshal(dAtA []byte) error {
 				postIndex := iNdEx + packedLen
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
+				}
+				var elementCount int
+				elementCount = packedLen
+				if elementCount != 0 && len(m.Field13) == 0 {
+					m.Field13 = make([]bool, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v int
@@ -33845,8 +34011,10 @@ func (m *NidRepPackedNative) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
-				if len(m.Field1) == 0 {
-					m.Field1 = make([]float64, 0, packedLen/8)
+				var elementCount int
+				elementCount = packedLen / 8
+				if elementCount != 0 && len(m.Field1) == 0 {
+					m.Field1 = make([]float64, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v uint64
@@ -33894,8 +34062,10 @@ func (m *NidRepPackedNative) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
-				if len(m.Field2) == 0 {
-					m.Field2 = make([]float32, 0, packedLen/4)
+				var elementCount int
+				elementCount = packedLen / 4
+				if elementCount != 0 && len(m.Field2) == 0 {
+					m.Field2 = make([]float32, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v uint32
@@ -33950,6 +34120,17 @@ func (m *NidRepPackedNative) Unmarshal(dAtA []byte) error {
 				postIndex := iNdEx + packedLen
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
+				}
+				var elementCount int
+				var count int
+				for _, integer := range dAtA {
+					if integer < 128 {
+						count++
+					}
+				}
+				elementCount = count
+				if elementCount != 0 && len(m.Field3) == 0 {
+					m.Field3 = make([]int32, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v int32
@@ -34013,6 +34194,17 @@ func (m *NidRepPackedNative) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
+				var elementCount int
+				var count int
+				for _, integer := range dAtA {
+					if integer < 128 {
+						count++
+					}
+				}
+				elementCount = count
+				if elementCount != 0 && len(m.Field4) == 0 {
+					m.Field4 = make([]int64, 0, elementCount)
+				}
 				for iNdEx < postIndex {
 					var v int64
 					for shift := uint(0); ; shift += 7 {
@@ -34074,6 +34266,17 @@ func (m *NidRepPackedNative) Unmarshal(dAtA []byte) error {
 				postIndex := iNdEx + packedLen
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
+				}
+				var elementCount int
+				var count int
+				for _, integer := range dAtA {
+					if integer < 128 {
+						count++
+					}
+				}
+				elementCount = count
+				if elementCount != 0 && len(m.Field5) == 0 {
+					m.Field5 = make([]uint32, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v uint32
@@ -34137,6 +34340,17 @@ func (m *NidRepPackedNative) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
+				var elementCount int
+				var count int
+				for _, integer := range dAtA {
+					if integer < 128 {
+						count++
+					}
+				}
+				elementCount = count
+				if elementCount != 0 && len(m.Field6) == 0 {
+					m.Field6 = make([]uint64, 0, elementCount)
+				}
 				for iNdEx < postIndex {
 					var v uint64
 					for shift := uint(0); ; shift += 7 {
@@ -34199,6 +34413,17 @@ func (m *NidRepPackedNative) Unmarshal(dAtA []byte) error {
 				postIndex := iNdEx + packedLen
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
+				}
+				var elementCount int
+				var count int
+				for _, integer := range dAtA {
+					if integer < 128 {
+						count++
+					}
+				}
+				elementCount = count
+				if elementCount != 0 && len(m.Field7) == 0 {
+					m.Field7 = make([]int32, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v int32
@@ -34264,6 +34489,17 @@ func (m *NidRepPackedNative) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
+				var elementCount int
+				var count int
+				for _, integer := range dAtA {
+					if integer < 128 {
+						count++
+					}
+				}
+				elementCount = count
+				if elementCount != 0 && len(m.Field8) == 0 {
+					m.Field8 = make([]int64, 0, elementCount)
+				}
 				for iNdEx < postIndex {
 					var v uint64
 					for shift := uint(0); ; shift += 7 {
@@ -34318,8 +34554,10 @@ func (m *NidRepPackedNative) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
-				if len(m.Field9) == 0 {
-					m.Field9 = make([]uint32, 0, packedLen/4)
+				var elementCount int
+				elementCount = packedLen / 4
+				if elementCount != 0 && len(m.Field9) == 0 {
+					m.Field9 = make([]uint32, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v uint32
@@ -34365,8 +34603,10 @@ func (m *NidRepPackedNative) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
-				if len(m.Field10) == 0 {
-					m.Field10 = make([]int32, 0, packedLen/4)
+				var elementCount int
+				elementCount = packedLen / 4
+				if elementCount != 0 && len(m.Field10) == 0 {
+					m.Field10 = make([]int32, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v int32
@@ -34412,8 +34652,10 @@ func (m *NidRepPackedNative) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
-				if len(m.Field11) == 0 {
-					m.Field11 = make([]uint64, 0, packedLen/8)
+				var elementCount int
+				elementCount = packedLen / 8
+				if elementCount != 0 && len(m.Field11) == 0 {
+					m.Field11 = make([]uint64, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v uint64
@@ -34459,8 +34701,10 @@ func (m *NidRepPackedNative) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
-				if len(m.Field12) == 0 {
-					m.Field12 = make([]int64, 0, packedLen/8)
+				var elementCount int
+				elementCount = packedLen / 8
+				if elementCount != 0 && len(m.Field12) == 0 {
+					m.Field12 = make([]int64, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v int64
@@ -34514,6 +34758,11 @@ func (m *NidRepPackedNative) Unmarshal(dAtA []byte) error {
 				postIndex := iNdEx + packedLen
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
+				}
+				var elementCount int
+				elementCount = packedLen
+				if elementCount != 0 && len(m.Field13) == 0 {
+					m.Field13 = make([]bool, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v int
@@ -34620,8 +34869,10 @@ func (m *NinRepPackedNative) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
-				if len(m.Field1) == 0 {
-					m.Field1 = make([]float64, 0, packedLen/8)
+				var elementCount int
+				elementCount = packedLen / 8
+				if elementCount != 0 && len(m.Field1) == 0 {
+					m.Field1 = make([]float64, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v uint64
@@ -34669,8 +34920,10 @@ func (m *NinRepPackedNative) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
-				if len(m.Field2) == 0 {
-					m.Field2 = make([]float32, 0, packedLen/4)
+				var elementCount int
+				elementCount = packedLen / 4
+				if elementCount != 0 && len(m.Field2) == 0 {
+					m.Field2 = make([]float32, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v uint32
@@ -34725,6 +34978,17 @@ func (m *NinRepPackedNative) Unmarshal(dAtA []byte) error {
 				postIndex := iNdEx + packedLen
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
+				}
+				var elementCount int
+				var count int
+				for _, integer := range dAtA {
+					if integer < 128 {
+						count++
+					}
+				}
+				elementCount = count
+				if elementCount != 0 && len(m.Field3) == 0 {
+					m.Field3 = make([]int32, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v int32
@@ -34788,6 +35052,17 @@ func (m *NinRepPackedNative) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
+				var elementCount int
+				var count int
+				for _, integer := range dAtA {
+					if integer < 128 {
+						count++
+					}
+				}
+				elementCount = count
+				if elementCount != 0 && len(m.Field4) == 0 {
+					m.Field4 = make([]int64, 0, elementCount)
+				}
 				for iNdEx < postIndex {
 					var v int64
 					for shift := uint(0); ; shift += 7 {
@@ -34849,6 +35124,17 @@ func (m *NinRepPackedNative) Unmarshal(dAtA []byte) error {
 				postIndex := iNdEx + packedLen
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
+				}
+				var elementCount int
+				var count int
+				for _, integer := range dAtA {
+					if integer < 128 {
+						count++
+					}
+				}
+				elementCount = count
+				if elementCount != 0 && len(m.Field5) == 0 {
+					m.Field5 = make([]uint32, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v uint32
@@ -34912,6 +35198,17 @@ func (m *NinRepPackedNative) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
+				var elementCount int
+				var count int
+				for _, integer := range dAtA {
+					if integer < 128 {
+						count++
+					}
+				}
+				elementCount = count
+				if elementCount != 0 && len(m.Field6) == 0 {
+					m.Field6 = make([]uint64, 0, elementCount)
+				}
 				for iNdEx < postIndex {
 					var v uint64
 					for shift := uint(0); ; shift += 7 {
@@ -34974,6 +35271,17 @@ func (m *NinRepPackedNative) Unmarshal(dAtA []byte) error {
 				postIndex := iNdEx + packedLen
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
+				}
+				var elementCount int
+				var count int
+				for _, integer := range dAtA {
+					if integer < 128 {
+						count++
+					}
+				}
+				elementCount = count
+				if elementCount != 0 && len(m.Field7) == 0 {
+					m.Field7 = make([]int32, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v int32
@@ -35039,6 +35347,17 @@ func (m *NinRepPackedNative) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
+				var elementCount int
+				var count int
+				for _, integer := range dAtA {
+					if integer < 128 {
+						count++
+					}
+				}
+				elementCount = count
+				if elementCount != 0 && len(m.Field8) == 0 {
+					m.Field8 = make([]int64, 0, elementCount)
+				}
 				for iNdEx < postIndex {
 					var v uint64
 					for shift := uint(0); ; shift += 7 {
@@ -35093,8 +35412,10 @@ func (m *NinRepPackedNative) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
-				if len(m.Field9) == 0 {
-					m.Field9 = make([]uint32, 0, packedLen/4)
+				var elementCount int
+				elementCount = packedLen / 4
+				if elementCount != 0 && len(m.Field9) == 0 {
+					m.Field9 = make([]uint32, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v uint32
@@ -35140,8 +35461,10 @@ func (m *NinRepPackedNative) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
-				if len(m.Field10) == 0 {
-					m.Field10 = make([]int32, 0, packedLen/4)
+				var elementCount int
+				elementCount = packedLen / 4
+				if elementCount != 0 && len(m.Field10) == 0 {
+					m.Field10 = make([]int32, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v int32
@@ -35187,8 +35510,10 @@ func (m *NinRepPackedNative) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
-				if len(m.Field11) == 0 {
-					m.Field11 = make([]uint64, 0, packedLen/8)
+				var elementCount int
+				elementCount = packedLen / 8
+				if elementCount != 0 && len(m.Field11) == 0 {
+					m.Field11 = make([]uint64, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v uint64
@@ -35234,8 +35559,10 @@ func (m *NinRepPackedNative) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
-				if len(m.Field12) == 0 {
-					m.Field12 = make([]int64, 0, packedLen/8)
+				var elementCount int
+				elementCount = packedLen / 8
+				if elementCount != 0 && len(m.Field12) == 0 {
+					m.Field12 = make([]int64, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v int64
@@ -35289,6 +35616,11 @@ func (m *NinRepPackedNative) Unmarshal(dAtA []byte) error {
 				postIndex := iNdEx + packedLen
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
+				}
+				var elementCount int
+				elementCount = packedLen
+				if elementCount != 0 && len(m.Field13) == 0 {
+					m.Field13 = make([]bool, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v int
@@ -35975,8 +36307,10 @@ func (m *NidRepStruct) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
-				if len(m.Field1) == 0 {
-					m.Field1 = make([]float64, 0, packedLen/8)
+				var elementCount int
+				elementCount = packedLen / 8
+				if elementCount != 0 && len(m.Field1) == 0 {
+					m.Field1 = make([]float64, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v uint64
@@ -36024,8 +36358,10 @@ func (m *NidRepStruct) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
-				if len(m.Field2) == 0 {
-					m.Field2 = make([]float32, 0, packedLen/4)
+				var elementCount int
+				elementCount = packedLen / 4
+				if elementCount != 0 && len(m.Field2) == 0 {
+					m.Field2 = make([]float32, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v uint32
@@ -36143,6 +36479,17 @@ func (m *NidRepStruct) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
+				var elementCount int
+				var count int
+				for _, integer := range dAtA {
+					if integer < 128 {
+						count++
+					}
+				}
+				elementCount = count
+				if elementCount != 0 && len(m.Field6) == 0 {
+					m.Field6 = make([]uint64, 0, elementCount)
+				}
 				for iNdEx < postIndex {
 					var v uint64
 					for shift := uint(0); ; shift += 7 {
@@ -36205,6 +36552,17 @@ func (m *NidRepStruct) Unmarshal(dAtA []byte) error {
 				postIndex := iNdEx + packedLen
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
+				}
+				var elementCount int
+				var count int
+				for _, integer := range dAtA {
+					if integer < 128 {
+						count++
+					}
+				}
+				elementCount = count
+				if elementCount != 0 && len(m.Field7) == 0 {
+					m.Field7 = make([]int32, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v int32
@@ -36299,6 +36657,11 @@ func (m *NidRepStruct) Unmarshal(dAtA []byte) error {
 				postIndex := iNdEx + packedLen
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
+				}
+				var elementCount int
+				elementCount = packedLen
+				if elementCount != 0 && len(m.Field13) == 0 {
+					m.Field13 = make([]bool, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v int
@@ -36463,8 +36826,10 @@ func (m *NinRepStruct) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
-				if len(m.Field1) == 0 {
-					m.Field1 = make([]float64, 0, packedLen/8)
+				var elementCount int
+				elementCount = packedLen / 8
+				if elementCount != 0 && len(m.Field1) == 0 {
+					m.Field1 = make([]float64, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v uint64
@@ -36512,8 +36877,10 @@ func (m *NinRepStruct) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
-				if len(m.Field2) == 0 {
-					m.Field2 = make([]float32, 0, packedLen/4)
+				var elementCount int
+				elementCount = packedLen / 4
+				if elementCount != 0 && len(m.Field2) == 0 {
+					m.Field2 = make([]float32, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v uint32
@@ -36631,6 +36998,17 @@ func (m *NinRepStruct) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
+				var elementCount int
+				var count int
+				for _, integer := range dAtA {
+					if integer < 128 {
+						count++
+					}
+				}
+				elementCount = count
+				if elementCount != 0 && len(m.Field6) == 0 {
+					m.Field6 = make([]uint64, 0, elementCount)
+				}
 				for iNdEx < postIndex {
 					var v uint64
 					for shift := uint(0); ; shift += 7 {
@@ -36693,6 +37071,17 @@ func (m *NinRepStruct) Unmarshal(dAtA []byte) error {
 				postIndex := iNdEx + packedLen
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
+				}
+				var elementCount int
+				var count int
+				for _, integer := range dAtA {
+					if integer < 128 {
+						count++
+					}
+				}
+				elementCount = count
+				if elementCount != 0 && len(m.Field7) == 0 {
+					m.Field7 = make([]int32, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v int32
@@ -36787,6 +37176,11 @@ func (m *NinRepStruct) Unmarshal(dAtA []byte) error {
 				postIndex := iNdEx + packedLen
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
+				}
+				var elementCount int
+				elementCount = packedLen
+				if elementCount != 0 && len(m.Field13) == 0 {
+					m.Field13 = make([]bool, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v int
@@ -39912,6 +40306,10 @@ func (m *NidRepEnum) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
+				var elementCount int
+				if elementCount != 0 && len(m.Field1) == 0 {
+					m.Field1 = make([]TheTestEnum, 0, elementCount)
+				}
 				for iNdEx < postIndex {
 					var v TheTestEnum
 					for shift := uint(0); ; shift += 7 {
@@ -39974,6 +40372,10 @@ func (m *NidRepEnum) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
+				var elementCount int
+				if elementCount != 0 && len(m.Field2) == 0 {
+					m.Field2 = make([]YetAnotherTestEnum, 0, elementCount)
+				}
 				for iNdEx < postIndex {
 					var v YetAnotherTestEnum
 					for shift := uint(0); ; shift += 7 {
@@ -40035,6 +40437,10 @@ func (m *NidRepEnum) Unmarshal(dAtA []byte) error {
 				postIndex := iNdEx + packedLen
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
+				}
+				var elementCount int
+				if elementCount != 0 && len(m.Field3) == 0 {
+					m.Field3 = make([]YetYetAnotherTestEnum, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v YetYetAnotherTestEnum
@@ -40149,6 +40555,10 @@ func (m *NinRepEnum) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
+				var elementCount int
+				if elementCount != 0 && len(m.Field1) == 0 {
+					m.Field1 = make([]TheTestEnum, 0, elementCount)
+				}
 				for iNdEx < postIndex {
 					var v TheTestEnum
 					for shift := uint(0); ; shift += 7 {
@@ -40211,6 +40621,10 @@ func (m *NinRepEnum) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
+				var elementCount int
+				if elementCount != 0 && len(m.Field2) == 0 {
+					m.Field2 = make([]YetAnotherTestEnum, 0, elementCount)
+				}
 				for iNdEx < postIndex {
 					var v YetAnotherTestEnum
 					for shift := uint(0); ; shift += 7 {
@@ -40272,6 +40686,10 @@ func (m *NinRepEnum) Unmarshal(dAtA []byte) error {
 				postIndex := iNdEx + packedLen
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
+				}
+				var elementCount int
+				if elementCount != 0 && len(m.Field3) == 0 {
+					m.Field3 = make([]YetYetAnotherTestEnum, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v YetYetAnotherTestEnum
@@ -42566,8 +42984,10 @@ func (m *CustomNameNinRepNative) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
-				if len(m.FieldA) == 0 {
-					m.FieldA = make([]float64, 0, packedLen/8)
+				var elementCount int
+				elementCount = packedLen / 8
+				if elementCount != 0 && len(m.FieldA) == 0 {
+					m.FieldA = make([]float64, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v uint64
@@ -42615,8 +43035,10 @@ func (m *CustomNameNinRepNative) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
-				if len(m.FieldB) == 0 {
-					m.FieldB = make([]float32, 0, packedLen/4)
+				var elementCount int
+				elementCount = packedLen / 4
+				if elementCount != 0 && len(m.FieldB) == 0 {
+					m.FieldB = make([]float32, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v uint32
@@ -42671,6 +43093,17 @@ func (m *CustomNameNinRepNative) Unmarshal(dAtA []byte) error {
 				postIndex := iNdEx + packedLen
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
+				}
+				var elementCount int
+				var count int
+				for _, integer := range dAtA {
+					if integer < 128 {
+						count++
+					}
+				}
+				elementCount = count
+				if elementCount != 0 && len(m.FieldC) == 0 {
+					m.FieldC = make([]int32, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v int32
@@ -42734,6 +43167,17 @@ func (m *CustomNameNinRepNative) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
+				var elementCount int
+				var count int
+				for _, integer := range dAtA {
+					if integer < 128 {
+						count++
+					}
+				}
+				elementCount = count
+				if elementCount != 0 && len(m.FieldD) == 0 {
+					m.FieldD = make([]int64, 0, elementCount)
+				}
 				for iNdEx < postIndex {
 					var v int64
 					for shift := uint(0); ; shift += 7 {
@@ -42795,6 +43239,17 @@ func (m *CustomNameNinRepNative) Unmarshal(dAtA []byte) error {
 				postIndex := iNdEx + packedLen
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
+				}
+				var elementCount int
+				var count int
+				for _, integer := range dAtA {
+					if integer < 128 {
+						count++
+					}
+				}
+				elementCount = count
+				if elementCount != 0 && len(m.FieldE) == 0 {
+					m.FieldE = make([]uint32, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v uint32
@@ -42858,6 +43313,17 @@ func (m *CustomNameNinRepNative) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
+				var elementCount int
+				var count int
+				for _, integer := range dAtA {
+					if integer < 128 {
+						count++
+					}
+				}
+				elementCount = count
+				if elementCount != 0 && len(m.FieldF) == 0 {
+					m.FieldF = make([]uint64, 0, elementCount)
+				}
 				for iNdEx < postIndex {
 					var v uint64
 					for shift := uint(0); ; shift += 7 {
@@ -42920,6 +43386,17 @@ func (m *CustomNameNinRepNative) Unmarshal(dAtA []byte) error {
 				postIndex := iNdEx + packedLen
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
+				}
+				var elementCount int
+				var count int
+				for _, integer := range dAtA {
+					if integer < 128 {
+						count++
+					}
+				}
+				elementCount = count
+				if elementCount != 0 && len(m.FieldG) == 0 {
+					m.FieldG = make([]int32, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v int32
@@ -42985,6 +43462,17 @@ func (m *CustomNameNinRepNative) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
+				var elementCount int
+				var count int
+				for _, integer := range dAtA {
+					if integer < 128 {
+						count++
+					}
+				}
+				elementCount = count
+				if elementCount != 0 && len(m.FieldH) == 0 {
+					m.FieldH = make([]int64, 0, elementCount)
+				}
 				for iNdEx < postIndex {
 					var v uint64
 					for shift := uint(0); ; shift += 7 {
@@ -43039,8 +43527,10 @@ func (m *CustomNameNinRepNative) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
-				if len(m.FieldI) == 0 {
-					m.FieldI = make([]uint32, 0, packedLen/4)
+				var elementCount int
+				elementCount = packedLen / 4
+				if elementCount != 0 && len(m.FieldI) == 0 {
+					m.FieldI = make([]uint32, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v uint32
@@ -43086,8 +43576,10 @@ func (m *CustomNameNinRepNative) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
-				if len(m.FieldJ) == 0 {
-					m.FieldJ = make([]int32, 0, packedLen/4)
+				var elementCount int
+				elementCount = packedLen / 4
+				if elementCount != 0 && len(m.FieldJ) == 0 {
+					m.FieldJ = make([]int32, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v int32
@@ -43133,8 +43625,10 @@ func (m *CustomNameNinRepNative) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
-				if len(m.FieldK) == 0 {
-					m.FieldK = make([]uint64, 0, packedLen/8)
+				var elementCount int
+				elementCount = packedLen / 8
+				if elementCount != 0 && len(m.FieldK) == 0 {
+					m.FieldK = make([]uint64, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v uint64
@@ -43180,8 +43674,10 @@ func (m *CustomNameNinRepNative) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
-				if len(m.FieldL) == 0 {
-					m.FieldL = make([]int64, 0, packedLen/8)
+				var elementCount int
+				elementCount = packedLen / 8
+				if elementCount != 0 && len(m.FieldL) == 0 {
+					m.FieldL = make([]int64, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v int64
@@ -43235,6 +43731,11 @@ func (m *CustomNameNinRepNative) Unmarshal(dAtA []byte) error {
 				postIndex := iNdEx + packedLen
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
+				}
+				var elementCount int
+				elementCount = packedLen
+				if elementCount != 0 && len(m.FieldM) == 0 {
+					m.FieldM = make([]bool, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v int
@@ -44038,6 +44539,10 @@ func (m *CustomNameEnum) Unmarshal(dAtA []byte) error {
 				postIndex := iNdEx + packedLen
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
+				}
+				var elementCount int
+				if elementCount != 0 && len(m.FieldB) == 0 {
+					m.FieldB = make([]TheTestEnum, 0, elementCount)
 				}
 				for iNdEx < postIndex {
 					var v TheTestEnum
@@ -45331,9 +45836,9 @@ var (
 	ErrIntOverflowThetest   = fmt.Errorf("proto: integer overflow")
 )
 
-func init() { proto.RegisterFile("combos/both/thetest.proto", fileDescriptor_thetest_3e4f682cb8349b83) }
+func init() { proto.RegisterFile("combos/both/thetest.proto", fileDescriptor_thetest_278454dc662c3d3e) }
 
-var fileDescriptor_thetest_3e4f682cb8349b83 = []byte{
+var fileDescriptor_thetest_278454dc662c3d3e = []byte{
 	// 3081 bytes of a gzipped FileDescriptorProto
 	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xff, 0xcc, 0x5a, 0x4d, 0x6c, 0x1b, 0xc7,
 	0x15, 0xd6, 0xec, 0x50, 0x0a, 0xf5, 0x24, 0x4b, 0xf4, 0x26, 0x56, 0xb6, 0x8c, 0xba, 0xa2, 0x37,

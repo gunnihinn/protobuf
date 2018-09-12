@@ -59,7 +59,7 @@ type Castaway struct {
 func (m *Castaway) Reset()      { *m = Castaway{} }
 func (*Castaway) ProtoMessage() {}
 func (*Castaway) Descriptor() ([]byte, []int) {
-	return fileDescriptor_casttype_bbbbfd21588d9441, []int{0}
+	return fileDescriptor_casttype_10ff5afcfcf52480, []int{0}
 }
 func (m *Castaway) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -89,7 +89,7 @@ type Wilson struct {
 func (m *Wilson) Reset()      { *m = Wilson{} }
 func (*Wilson) ProtoMessage() {}
 func (*Wilson) Descriptor() ([]byte, []int) {
-	return fileDescriptor_casttype_bbbbfd21588d9441, []int{1}
+	return fileDescriptor_casttype_10ff5afcfcf52480, []int{1}
 }
 func (m *Wilson) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -1641,6 +1641,17 @@ func (m *Castaway) Unmarshal(dAtA []byte) error {
 				if postIndex > l {
 					return io.ErrUnexpectedEOF
 				}
+				var elementCount int
+				var count int
+				for _, integer := range dAtA {
+					if integer < 128 {
+						count++
+					}
+				}
+				elementCount = count
+				if elementCount != 0 && len(m.MyUint64S) == 0 {
+					m.MyUint64S = make([]github_com_gogo_protobuf_test_casttype.MyUint64Type, 0, elementCount)
+				}
 				for iNdEx < postIndex {
 					var v github_com_gogo_protobuf_test_casttype.MyUint64Type
 					for shift := uint(0); ; shift += 7 {
@@ -2329,10 +2340,10 @@ var (
 )
 
 func init() {
-	proto.RegisterFile("combos/unmarshaler/casttype.proto", fileDescriptor_casttype_bbbbfd21588d9441)
+	proto.RegisterFile("combos/unmarshaler/casttype.proto", fileDescriptor_casttype_10ff5afcfcf52480)
 }
 
-var fileDescriptor_casttype_bbbbfd21588d9441 = []byte{
+var fileDescriptor_casttype_10ff5afcfcf52480 = []byte{
 	// 698 bytes of a gzipped FileDescriptorProto
 	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xff, 0xa4, 0x95, 0xbf, 0x6f, 0xd3, 0x40,
 	0x14, 0xc7, 0x7d, 0x4d, 0xd3, 0x26, 0x97, 0x06, 0xa2, 0x13, 0x83, 0x55, 0x89, 0xb3, 0x69, 0x55,

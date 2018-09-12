@@ -47,7 +47,7 @@ func (m *KnownTypes) Reset()         { *m = KnownTypes{} }
 func (m *KnownTypes) String() string { return proto.CompactTextString(m) }
 func (*KnownTypes) ProtoMessage()    {}
 func (*KnownTypes) Descriptor() ([]byte, []int) {
-	return fileDescriptor_types_f8a2648e6b1ebf0f, []int{0}
+	return fileDescriptor_types_f24fe789c491e8e3, []int{0}
 }
 func (m *KnownTypes) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_KnownTypes.Unmarshal(m, b)
@@ -167,7 +167,7 @@ func (m *ProtoTypes) Reset()         { *m = ProtoTypes{} }
 func (m *ProtoTypes) String() string { return proto.CompactTextString(m) }
 func (*ProtoTypes) ProtoMessage()    {}
 func (*ProtoTypes) Descriptor() ([]byte, []int) {
-	return fileDescriptor_types_f8a2648e6b1ebf0f, []int{1}
+	return fileDescriptor_types_f24fe789c491e8e3, []int{1}
 }
 func (m *ProtoTypes) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_ProtoTypes.Unmarshal(m, b)
@@ -238,7 +238,7 @@ func (m *StdTypes) Reset()         { *m = StdTypes{} }
 func (m *StdTypes) String() string { return proto.CompactTextString(m) }
 func (*StdTypes) ProtoMessage()    {}
 func (*StdTypes) Descriptor() ([]byte, []int) {
-	return fileDescriptor_types_f8a2648e6b1ebf0f, []int{2}
+	return fileDescriptor_types_f24fe789c491e8e3, []int{2}
 }
 func (m *StdTypes) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_StdTypes.Unmarshal(m, b)
@@ -309,7 +309,7 @@ func (m *RepProtoTypes) Reset()         { *m = RepProtoTypes{} }
 func (m *RepProtoTypes) String() string { return proto.CompactTextString(m) }
 func (*RepProtoTypes) ProtoMessage()    {}
 func (*RepProtoTypes) Descriptor() ([]byte, []int) {
-	return fileDescriptor_types_f8a2648e6b1ebf0f, []int{3}
+	return fileDescriptor_types_f24fe789c491e8e3, []int{3}
 }
 func (m *RepProtoTypes) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_RepProtoTypes.Unmarshal(m, b)
@@ -380,7 +380,7 @@ func (m *RepStdTypes) Reset()         { *m = RepStdTypes{} }
 func (m *RepStdTypes) String() string { return proto.CompactTextString(m) }
 func (*RepStdTypes) ProtoMessage()    {}
 func (*RepStdTypes) Descriptor() ([]byte, []int) {
-	return fileDescriptor_types_f8a2648e6b1ebf0f, []int{4}
+	return fileDescriptor_types_f24fe789c491e8e3, []int{4}
 }
 func (m *RepStdTypes) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_RepStdTypes.Unmarshal(m, b)
@@ -451,7 +451,7 @@ func (m *MapProtoTypes) Reset()         { *m = MapProtoTypes{} }
 func (m *MapProtoTypes) String() string { return proto.CompactTextString(m) }
 func (*MapProtoTypes) ProtoMessage()    {}
 func (*MapProtoTypes) Descriptor() ([]byte, []int) {
-	return fileDescriptor_types_f8a2648e6b1ebf0f, []int{5}
+	return fileDescriptor_types_f24fe789c491e8e3, []int{5}
 }
 func (m *MapProtoTypes) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_MapProtoTypes.Unmarshal(m, b)
@@ -522,7 +522,7 @@ func (m *MapStdTypes) Reset()         { *m = MapStdTypes{} }
 func (m *MapStdTypes) String() string { return proto.CompactTextString(m) }
 func (*MapStdTypes) ProtoMessage()    {}
 func (*MapStdTypes) Descriptor() ([]byte, []int) {
-	return fileDescriptor_types_f8a2648e6b1ebf0f, []int{6}
+	return fileDescriptor_types_f24fe789c491e8e3, []int{6}
 }
 func (m *MapStdTypes) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_MapStdTypes.Unmarshal(m, b)
@@ -593,7 +593,7 @@ func (m *OneofProtoTypes) Reset()         { *m = OneofProtoTypes{} }
 func (m *OneofProtoTypes) String() string { return proto.CompactTextString(m) }
 func (*OneofProtoTypes) ProtoMessage()    {}
 func (*OneofProtoTypes) Descriptor() ([]byte, []int) {
-	return fileDescriptor_types_f8a2648e6b1ebf0f, []int{7}
+	return fileDescriptor_types_f24fe789c491e8e3, []int{7}
 }
 func (m *OneofProtoTypes) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_OneofProtoTypes.Unmarshal(m, b)
@@ -749,7 +749,7 @@ func (m *OneofStdTypes) Reset()         { *m = OneofStdTypes{} }
 func (m *OneofStdTypes) String() string { return proto.CompactTextString(m) }
 func (*OneofStdTypes) ProtoMessage()    {}
 func (*OneofStdTypes) Descriptor() ([]byte, []int) {
-	return fileDescriptor_types_f8a2648e6b1ebf0f, []int{8}
+	return fileDescriptor_types_f24fe789c491e8e3, []int{8}
 }
 func (m *OneofStdTypes) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_OneofStdTypes.Unmarshal(m, b)
@@ -3748,9 +3748,9 @@ func sozTypes(x uint64) (n int) {
 	return sovTypes(uint64((x << 1) ^ uint64((int64(x) >> 63))))
 }
 
-func init() { proto.RegisterFile("combos/marshaler/types.proto", fileDescriptor_types_f8a2648e6b1ebf0f) }
+func init() { proto.RegisterFile("combos/marshaler/types.proto", fileDescriptor_types_f24fe789c491e8e3) }
 
-var fileDescriptor_types_f8a2648e6b1ebf0f = []byte{
+var fileDescriptor_types_f24fe789c491e8e3 = []byte{
 	// 927 bytes of a gzipped FileDescriptorProto
 	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xff, 0xec, 0x56, 0xcd, 0x8e, 0xdb, 0x54,
 	0x18, 0x8d, 0x7f, 0x52, 0x32, 0x5f, 0x14, 0xda, 0x5a, 0x02, 0x99, 0x50, 0x39, 0x43, 0xd8, 0x0c,
